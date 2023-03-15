@@ -1,0 +1,240 @@
+body {
+  background: black;
+}
+
+.breathe-container {
+  width: 1440px;
+  height: 900px;
+  background: black;
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  position: fixed;
+ /* position: absolute; */
+}
+
+#letter-1b1 {
+  width: 29px;
+  height: 54px;
+  /* top: 414px;
+  left: 620px; */
+ /* transition: 1000ms; */
+}
+
+#letter-1b2 {
+  width: 29px;
+  height: 54px;
+  /* top: 414px;
+  left: 620px; */
+}
+#letter-1b3 {
+  width: 29px;
+  height: 54px;
+  /* top: 414px;
+  left: 620px; */
+}
+
+#letter-2r1 {
+  width: 29px;
+  height: 54px;
+  /* top: 414px;
+  left: 649px; */
+}
+#letter-2r2 {
+  width: 29px;
+  height: 54px;
+  /* top: 414px;
+  left: 649px; */
+}
+#letter-2r3 {
+  width: 29px;
+  height: 54px;
+  /* top: 414px;
+  left: 649px; */
+}
+
+#letter-3e1 {
+  width: 27px;
+  height: 54px;
+  /* top: 414px;
+  left: 678px; */
+}
+#letter-3e2 {
+  width: 27px;
+  height: 54px;
+  /* top: 414px;
+  left: 678px; */
+}
+#letter-3e3 {
+  width: 27px;
+  height: 54px;
+  /* top: 414px;
+  left: 678px; */
+}
+#letter-3e4 {
+  width: 27px;
+  height: 54px;
+  /* top: 414px;
+  left: 678px; */
+}
+
+#letter-4a1 {
+  width: 29px;
+  height: 54px;
+  /* top: 414px;
+  left: 705px; */
+}
+#letter-4a2 {
+  width: 29px;
+  height: 54px;
+  /* top: 414px;
+  left: 705px; */
+}
+
+#letter-5t1 {
+  width: 30px;
+  height: 54px;
+  /* top: 414px;
+  left: 734px; */
+}
+#letter-5t2 {
+  width: 30px;
+  height: 54px;
+  /* top: 414px;
+  left: 734px; */
+}
+
+#letter-6h1 {
+  width: 27px;
+  height: 54px;
+  /* top: 414px;
+  left: 764px; */
+}
+#letter-6h2 {
+  width: 27px;
+  height: 54px;
+  /* top: 414px;
+  left: 764px; */
+}
+#letter-6h3 {
+  width: 27px;
+  height: 54px;
+  /* top: 414px;
+  left: 764px; */
+}
+
+#letter-7e1 {
+  width: 29px;
+  height: 54px;
+  /* top: 414px;
+  left: 791px; */
+}
+#letter-7e2 {
+  width: 29px;
+  height: 54px;
+  /* top: 414px;
+  left: 791px; */
+}
+#letter-7e3 {
+  width: 29px;
+  height: 54px;
+  /* top: 414px;
+  left: 791px; */
+}
+#letter-7e4 {
+  width: 29px;
+  height: 54px;
+  /* top: 414px;
+  left: 791px; */
+}
+
+/* text clock */
+#time{
+ /* font-family: 'IBM Plex Sans', sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+
+  color: rgb(100, 100, 100);
+  position: fixed;
+  /* bottom: 5vh; */
+  bottom: 0;
+  left: 50vw;
+  transform: translateX(-50%);
+  font-size: 2rem;
+  /* opacity: .5; */
+}
+
+/* clocks */
+
+/* clock 1 */
+/* #clock-circle {
+  height: 40px;
+  width: 40px;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  border: 2px solid rgb(122, 122, 122);
+  position: absolute;
+  top: 800px;
+  left: 50%;
+} */
+#clock-sec-container{
+  height: 3px;
+  width: 36px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+#clock-sec {
+  background-color: white;
+  width: 4px;
+  height: 3px;
+  position: absolute;
+  right: 0px;
+}
+
+/* #clock-min-container {
+  height: 3px;
+  width: 36px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+#clock-min {
+  background-color: white;
+  width: 14px;
+  height: 3px;
+  position: absolute;
+  right: 0px;
+} 
+#clock-min-container2 {
+  height: 3px;
+  width: 36px;
+  transform: translate(-50%, -50%) rotate(-90deg);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+#clock-min2 {
+  background-color: #222222;
+  width: 14px;
+  height: 3px;
+  position: absolute;
+  right: 0px;
+} */
+
+/* clock 2 */
+#clock-circle {
+  height: 40px;
+  width: 40px;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  position: absolute;
+  top: 800px;
+  left: 50%;
+}
